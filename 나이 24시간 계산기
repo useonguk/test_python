@@ -1,0 +1,11 @@
+ur_age = int(input('나이를 입력 : '))
+
+#1 살 == 18분
+time = ur_age * 18
+#hour = time // 60
+#min = time % 60
+
+#print('당신의 시간은',hour, "시",min,"분")
+#print(f"당신의 시간은 {hour}시 {min}분")
+#print('당신의 시간은'+ hour+ "시"+min+"분
+print(f"당신의 시간은 {time // 60}시 {time % 60}분")
