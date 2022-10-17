@@ -1,6 +1,4 @@
-a, b = map(int , input().split())
-print(a+b)
-print(a-b)
-print(a*b)
-print(a//b)
-print(a%b)
+goo = int(input())
+
+for i in range(1,10) : 
+    print(f"{goo} * {i} = {goo * i}")
