@@ -1,4 +1,8 @@
-goo = int(input())
+a,b = input().split()
 
-for i in range(1,10) : 
-    print(f"{goo} * {i} = {goo * i}")
+if(int(a)>int(b)):
+    print(">")
+elif(int(a) == int(b)):
+    print("==")
+else:
+    print("<")
